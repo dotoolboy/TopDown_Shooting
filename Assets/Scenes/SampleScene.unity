@@ -2282,13 +2282,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1272882942}
+  - component: {fileID: 1272882943}
+  - component: {fileID: 1272882947}
   - component: {fileID: 1272882946}
   - component: {fileID: 1272882945}
   - component: {fileID: 1272882944}
   - component: {fileID: 1272882948}
   - component: {fileID: 1272882949}
-  - component: {fileID: 1272882943}
-  - component: {fileID: 1272882947}
+  - component: {fileID: 1272882950}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2467,6 +2468,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSpawnPosition: {fileID: 184194779}
   testPrefab: {fileID: 4262193947943919618, guid: 8132c6c29dd8db3478fcf19a5b25b34e, type: 3}
+--- !u!114 &1272882950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272882940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a8853df22d75034e874d149a30d730f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseStats:
+    statsChangeType: 2
+    maxHealth: 10
+    speed: 5
+    attackSO: {fileID: 11400000, guid: cde98269f9e3b1e41b79d3f39f86f255, type: 2}
+  statsModifiers: []
 --- !u!1 &1282227265
 GameObject:
   m_ObjectHideFlags: 0
