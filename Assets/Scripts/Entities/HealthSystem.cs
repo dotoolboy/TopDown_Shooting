@@ -20,6 +20,8 @@ public class HealthSystem : MonoBehaviour
 
     public float MaxHealth => _statsHandler.CurrentStates.maxHealth;
 
+    public AudioClip damageClip;
+
     private void Awake()
     {
         _statsHandler = GetComponent<CharacterStatsHandler>();
@@ -61,6 +63,9 @@ public class HealthSystem : MonoBehaviour
         else
         {
             OnDamage?.Invoke();
+
+            if (damageClip)
+                SoundManager.PlayClip(damageClip);
         }
 
         if (CurrentHealth <= 0f)
