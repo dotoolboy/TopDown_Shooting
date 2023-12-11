@@ -2359,6 +2359,7 @@ GameObject:
   - component: {fileID: 1272882949}
   - component: {fileID: 1272882950}
   - component: {fileID: 1272882951}
+  - component: {fileID: 1272882952}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -2566,6 +2567,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91787d60c68f40445a22e6249d507967, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1272882952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272882940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e99d0f54ab52e504c82f483f5990af60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthChangeDelay: 0.5
 --- !u!1 &1282227265
 GameObject:
   m_ObjectHideFlags: 0
@@ -5402,11 +5416,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8803111042687313468, guid: da83f9deac498ec4b9523b70f32654a2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2.07
       objectReference: {fileID: 0}
     - target: {fileID: 8803111042687313468, guid: da83f9deac498ec4b9523b70f32654a2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 8803111042687313468, guid: da83f9deac498ec4b9523b70f32654a2, type: 3}
       propertyPath: m_LocalPosition.z
